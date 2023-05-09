@@ -1,0 +1,105 @@
+header {
+  margin-top: 180px;
+  .MyheaDer {
+    display: flex;
+    gap: 87px;
+  }
+  .modern {
+    max-width: 513px;
+    .myp {
+      font-family: "Epilogue";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 32px;
+      color: #ef6d58;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+    }
+    .agency {
+      color: rgba(255, 255, 255, 0.64);
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 32px;
+    }
+    .Star {
+      position: absolute;
+      top: -20px;
+      right: 20px;
+    }
+    h1 {
+      position: relative;
+      font-family: "Epilogue";
+      font-style: normal;
+      font-weight: 800;
+      font-size: 72px;
+
+      color: white;
+    }
+    .how {
+      background: #ef6d58;
+      border-radius: 6px;
+      padding: 18px 23px 16px 22px;
+      font-style: normal;
+      font-weight: 900;
+      font-size: 14px;
+      line-height: 14px;
+      text-align: center;
+      text-transform: uppercase;
+      border: 0;
+      color: #ffffff;
+      cursor: pointer;
+    }
+    .contact {
+      background: #2f234b;
+      border-radius: 6px;
+      padding: 18px 23px 16px 22px;
+      font-style: normal;
+      font-weight: 900;
+      font-size: 14px;
+      line-height: 14px;
+      text-align: center;
+      text-transform: uppercase;
+      border: 0;
+      color: #ffffff;
+      cursor: pointer;
+    }
+    .Man {
+      margin-top: 117px;
+      display: flex;
+      align-items: center;
+      p {
+        color: rgba(255, 255, 255, 0.64);
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 32px;
+      }
+    }
+  }
+  .imgDiv {
+    img {
+      width: 570px;
+      height: 602px;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    .MyheaDer {
+      flex-direction: column-reverse;
+
+      .imgDiv {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+          width: 329px;
+          height: 334px;
+        }
+      }
+    }
+  }
+}
