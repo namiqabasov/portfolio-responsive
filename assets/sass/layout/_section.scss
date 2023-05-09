@@ -80,6 +80,8 @@ section {
 @media screen and (max-width: 768px) {
   .aboutSection {
     flex-direction: column;
+    align-items: center;
+
     .adoutdiv {
       max-width: 329px;
     }
