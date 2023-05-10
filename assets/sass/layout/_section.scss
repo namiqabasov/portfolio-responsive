@@ -12,7 +12,7 @@ section {
   background: #f3d1bf;
   height: 192px;
   ul {
-    margin-left: 52px;
+    margin-left: 10%;
     display: grid;
     grid-template-columns: auto auto auto auto auto;
   }
@@ -22,6 +22,7 @@ section {
 @media screen and (max-width: 768px) {
   .navSection {
     ul {
+      grid-template-areas: inherit;
       grid-template-columns: 1fr 1fr;
       gap: 20px;
     }
@@ -160,8 +161,11 @@ section {
   .Projac {
     flex-direction: column;
     div {
-      max-width: 342px;
+      padding: 0 0 0 48px;
+      max-width: 294px;
       width: 100%;
+      max-height: 93px;
+      height: 100%;
     }
   }
 }
@@ -408,11 +412,29 @@ section {
 }
 
 .secService {
+  padding-bottom: 128px;
+
   .divService {
+    max-width: 336px;
+
+    p {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 32px;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: #ef6d58;
+    }
+    h2 {
+      font-weight: 800;
+      font-size: 40px;
+      line-height: 48px;
+      color: #391400;
+      padding: 17px 0 35px 0;
+    }
   }
   .divCards {
     display: flex;
-
     .divCards-c {
       border: 1px solid #da95706e;
       padding: 48px;
@@ -444,6 +466,14 @@ section {
           left: 24px;
         }
       }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .secService {
+    .divCards {
+      flex-direction: column;
     }
   }
 }
