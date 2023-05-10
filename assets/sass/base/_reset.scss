@@ -23,7 +23,11 @@ a {
     color: #ffffff;
   }
 }
-
+p,
+h1,
+h2 {
+  font-family: "Epilogue", sans-serif;
+}
 .container {
   max-width: 1440px;
   display: flex;
@@ -31,4 +35,8 @@ a {
   align-items: center;
   background-color: #2f234b;
   height: 2000px;
+}
+
+button {
+  cursor: pointer;
 }
