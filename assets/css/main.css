@@ -234,9 +234,11 @@ section {
 
 @media screen and (max-width: 768px) {
   .navSection ul {
-    grid-template-areas: inherit;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 240px;
+    row-gap: 20px;
+    justify-content: center;
   }
 }
 .aboutSection {
@@ -1036,6 +1038,7 @@ section {
   align-items: end;
   border: 1px solid #3a3c56;
   border-radius: 6px;
+  justify-content: center;
 }
 .artPortfolio .myOur .myDesigners .divImg .myFirst {
   font-weight: 700;
@@ -1049,6 +1052,17 @@ section {
   font-size: 16px;
   line-height: 32px;
   color: rgba(255, 255, 255, 0.64);
+}
+.artPortfolio .myOur .pinsl {
+  display: flex;
+  justify-content: center;
+}
+.artPortfolio .myOur .pinsl .myImg1 {
+  display: inline;
+  padding-top: 64px;
+}
+.artPortfolio .myOur .pinsl .myImg2 {
+  display: none;
 }
 @media screen and (max-width: 768px) {
   .artPortfolio .myOur .myDesigners {
@@ -1067,6 +1081,14 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+.artPortfolio .foundWords .diGitaly div {
+  position: relative;
+}
+.artPortfolio .foundWords .diGitaly div img {
+  position: absolute;
+  left: 300px;
+  opacity: 0.5;
 }
 .artPortfolio .foundWords .diGitaly .myFond {
   font-weight: 400;
@@ -1103,8 +1125,15 @@ section {
     flex-direction: column;
     gap: 41px;
   }
+  .artPortfolio .foundWords .diGitaly div {
+    max-width: 100px;
+    width: 90%;
+  }
+  .artPortfolio .foundWords .diGitaly div img {
+    left: 200px;
+  }
   .artPortfolio .foundWords .manImg img {
-    max-width: 329px;
+    max-width: 229px;
   }
   .artPortfolio .foundWords .myFond h3 {
     font-size: 24px;
@@ -1152,12 +1181,62 @@ section {
   display: grid;
   grid-template-columns: auto auto;
   width: 100%;
-  gap: 0;
+  padding-top: 64px;
 }
 .artTestimanuals .mydivTestiman .Comments-1 .end {
   max-width: 586px;
   height: 336px;
   padding: 48px;
-  border: 1px solid #fabcbc;
-  border-radius: 0pxrgba 223, 173, 139, 0.603 x 0px;
+  border: 1px solid #f3c2a7;
+  border-radius: 0px 6px 0px 0px;
+}
+.artTestimanuals .mydivTestiman .Comments-1 .end .mypCmmant {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 32px;
+  color: rgba(57, 20, 0, 0.64);
+  padding: 31px 0 30px 0;
+}
+.artTestimanuals .mydivTestiman .Comments-1 .end .man {
+  align-self: end;
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  padding-bottom: 47px;
+}
+.artTestimanuals .mydivTestiman .Comments-1 .end .man div .name {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #391400;
+}
+.artTestimanuals .mydivTestiman .Comments-1 .end .man div .media {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: #391400;
+}
+@media screen and (max-width: 768px) {
+  .artTestimanuals .mydivTestiman .Comments-1 {
+    grid-template-columns: auto;
+  }
+  .artTestimanuals .mydivTestiman .Comments-1 .man img {
+    width: 48px;
+  }
+}
+.artTestimanuals .btnSeeall {
+  padding-top: 65px;
+}
+.artTestimanuals .btnSeeall button {
+  background: #ffffff;
+  box-shadow: 0px 3px 9px rgba(57, 20, 0, 0.08);
+  border-radius: 6px;
+  border: 0;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #391400;
+  padding: 18px 54px 16px 41px;
 }/*# sourceMappingURL=main.css.map */

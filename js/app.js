@@ -20,6 +20,13 @@ manOFcommats1.addEventListener("click", function () {
     manOFcommats4.style.cssText = `
     margin-top:-64px
     `;
+    
+    manOFcommats2.style.cssText = `
+    margin-top:0px;
+    `;
+    manOFcommats3.style.cssText = `
+    margin-top:0px;
+    `;
   }
 });
 manOFcommats2.addEventListener("click", function () {
@@ -39,6 +46,13 @@ manOFcommats2.addEventListener("click", function () {
     manOFcommats3.style.cssText = `
     margin-top:-64px
     `;
+    manOFcommats4.style.cssText = `
+    margin-top:0px;
+    `;
+    
+    manOFcommats1.style.cssText = `
+    margin-top:0px;
+    `;
   }
 });
 manOFcommats3.addEventListener("click", function () {
@@ -52,6 +66,15 @@ manOFcommats3.addEventListener("click", function () {
     height:400px;
     background-color: white;
     `;
+    manOFcommats4.style.cssText = `
+    margin-top:0px;
+    `;
+    manOFcommats2.style.cssText = `
+    margin-top:0px;
+    `;
+    manOFcommats1.style.cssText = `
+    margin-top:0px;
+    `;
   }
 });
 manOFcommats4.addEventListener("click", function () {
@@ -64,6 +87,15 @@ manOFcommats4.addEventListener("click", function () {
     manOFcommats4.style.cssText = `
     height:400px;
     background-color: white;
+    `;
+    manOFcommats3.style.cssText = `
+    margin-top:0px;
+    `;
+    manOFcommats2.style.cssText = `
+    margin-top:0px;
+    `;
+    manOFcommats1.style.cssText = `
+    margin-top:0px;
     `;
   }
 });

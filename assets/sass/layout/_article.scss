@@ -431,6 +431,7 @@
           align-items: end;
           border: 1px solid #3a3c56;
           border-radius: 6px;
+          justify-content: center;
         }
 
         .myFirst {
@@ -448,6 +449,17 @@
         }
       }
     }
+    .pinsl {
+      display: flex;
+      justify-content: center;
+      .myImg1 {
+        display: inline;
+        padding-top: 64px;
+      }
+      .myImg2 {
+        display: none;
+      }
+    }
   }
   @media screen and (max-width: 768px) {
     .myOur {
@@ -463,12 +475,21 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
-
+    
     .diGitaly {
       max-width: 470px;
       display: flex;
       flex-direction: column;
       justify-content: center;
+      div {
+        position: relative;
+
+        img {
+          position: absolute;
+          left: 300px;
+          opacity: 0.5;
+        }
+      }
       .myFond {
         font-weight: 400;
         font-size: 16px;
@@ -506,9 +527,19 @@
       padding: 164px 23px 41px 23px;
       flex-direction: column;
       gap: 41px;
+
+      .diGitaly {
+        div {
+          max-width: 100px;
+          width: 90%;
+          img {
+            left: 200px;
+          }
+        }
+      }
       .manImg {
         img {
-          max-width: 329px;
+          max-width: 229px;
         }
       }
       .myFond {
@@ -561,19 +592,77 @@
       display: grid;
       grid-template-columns: auto auto;
       width: 100%;
-      gap: 0;
-      .starImg {
-      }
-      .mypCmmant {
-      }
+      padding-top: 64px;
 
       .end {
         max-width: 586px;
         height: 336px;
         padding: 48px;
-        border: 1px solid #fabcbc;
-        border-radius: 0pxrgba (223, 173, 139, 0.603) x 0px;
+        border: 1px solid #f3c2a7;
+        border-radius: 0px 6px 0px 0px;
+
+        .mypCmmant {
+          font-weight: 400;
+          font-size: 10px;
+          line-height: 32px;
+          color: rgba(57, 20, 0, 0.64);
+          padding: 31px 0 30px 0;
+        }
+        .man {
+          align-self: end;
+          display: flex;
+          gap: 24px;
+          align-items: center;
+          padding-bottom: 47px;
+          div {
+            .name {
+              font-weight: 700;
+              font-size: 24px;
+              line-height: 32px;
+              color: #391400;
+            }
+            .media {
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 32px;
+              color: #391400;
+            }
+          }
+        }
       }
+    }
+
+    @media screen and (max-width: 768px) {
+      .Comments-1 {
+        grid-template-columns: auto;
+        .man {
+          img {
+            width: 48px;
+          }
+        }
+      }
+    }
+  }
+  .btnSeeall {
+    padding-top: 65px;
+    button {
+      background: #ffffff;
+      box-shadow: 0px 3px 9px rgba(57, 20, 0, 0.08);
+      border-radius: 6px;
+      border: 0;
+      font-weight: 900;
+      font-size: 14px;
+      line-height: 14px;
+      text-align: center;
+      text-transform: uppercase;
+      color: #391400;
+      padding: 18px 54px 16px 41px;
+    }
+  }
+
+  .myPricing{
+    .mypresTag{
+      
     }
   }
 }
