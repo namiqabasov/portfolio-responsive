@@ -1,8 +1,8 @@
-article {
+.artPortfolio {
   background-color: #28293e;
   max-width: 1440px;
   width: 100%;
-  max-height: 10000px;
+  max-height: 100000px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -249,10 +249,10 @@ article {
           height: 100%;
         }
         .path {
-          width: 65%;
-          height: 100%;
+          width: 100%;
+          height: 250px;
 
-          margin-top: 60px;
+          margin-top: -31px;
         }
       }
     }
@@ -366,6 +366,213 @@ article {
         color: #ffffff;
         padding: 18px 30px 16px 31px;
         background: none;
+      }
+    }
+  }
+
+  .myOur {
+    padding-top: 156px;
+    max-width: 1170px;
+    width: 100%;
+    overflow: hidden;
+    .myTeam {
+      display: flex;
+      justify-content: space-between;
+      height: 180px;
+      .mypTag {
+        max-width: 531px;
+        p {
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 32px;
+          letter-spacing: 3px;
+          text-transform: uppercase;
+          color: #ef6d58;
+        }
+        h3 {
+          font-weight: 800;
+          font-size: 56px;
+          line-height: 64px;
+          letter-spacing: -1px;
+          color: #ffffff;
+          padding-top: 20px;
+        }
+      }
+      .divBtn {
+        display: flex;
+        align-items: end;
+        gap: 16px;
+        button {
+          background: none;
+          border: 1px solid rgba(255, 255, 255, 0.295743);
+          padding: 19px 19px 17px 17px;
+          border-radius: 50%;
+          img {
+            width: 14px;
+            height: 9px;
+          }
+          &:hover {
+            background-color: rgba(255, 255, 255, 0.438);
+          }
+        }
+      }
+    }
+    .myDesigners {
+      padding-top: 64px;
+      display: flex;
+      gap: 30px;
+
+      .divImg {
+        div {
+          width: 270px;
+
+          height: 272px;
+          display: flex;
+          align-items: end;
+          border: 1px solid #3a3c56;
+          border-radius: 6px;
+        }
+
+        .myFirst {
+          font-weight: 700;
+          font-size: 24px;
+          line-height: 32px;
+          color: #ffffff;
+          padding: 26px 0 0 0;
+        }
+        .myThen {
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 32px;
+          color: rgba(255, 255, 255, 0.64);
+        }
+      }
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .myOur {
+      .myDesigners {
+        margin-top: 20%;
+      }
+    }
+  }
+
+  .foundWords {
+    padding-top: 156px;
+    max-width: 1170px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    .diGitaly {
+      max-width: 470px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      .myFond {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 32px;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        color: #ef6d58;
+      }
+      h3 {
+        padding: 33px 0 44px 0;
+        font-weight: 800;
+        font-size: 40px;
+        line-height: 48px;
+        color: #ffffff;
+      }
+      .ren {
+        padding-bottom: 6px;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 32px;
+        color: #ffffff;
+      }
+      .myfOunder {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color: rgba(255, 255, 255, 0.64);
+      }
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .foundWords {
+      max-width: 329px;
+      padding: 164px 23px 41px 23px;
+      flex-direction: column;
+      gap: 41px;
+      .manImg {
+        img {
+          max-width: 329px;
+        }
+      }
+      .myFond {
+        h3 {
+          font-size: 24px;
+        }
+      }
+    }
+  }
+}
+
+.artTestimanuals {
+  background-color: #f3d1bf;
+  max-width: 1440px;
+  width: 100%;
+  max-height: 100000px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 124px 0 176px 0;
+
+  .mydivTestiman {
+    max-width: 1170px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .Whator {
+      max-width: 394px;
+      p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 32px;
+        text-align: center;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        color: #ef6d58;
+      }
+      h3 {
+        font-weight: 800;
+        font-size: 56px;
+        line-height: 64px;
+        text-align: center;
+        letter-spacing: -1px;
+        color: #391400;
+      }
+    }
+
+    .Comments-1 {
+      display: grid;
+      grid-template-columns: auto auto;
+      width: 100%;
+      gap: 0;
+      .starImg {
+      }
+      .mypCmmant {
+      }
+
+      .end {
+        max-width: 586px;
+        height: 336px;
+        padding: 48px;
+        border: 1px solid #fabcbc;
+        border-radius: 0pxrgba (223, 173, 139, 0.603) x 0px;
       }
     }
   }
