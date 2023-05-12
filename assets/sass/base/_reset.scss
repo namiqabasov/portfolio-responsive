@@ -5,6 +5,12 @@
   scroll-behavior: smooth;
 }
 
+.container {
+  max-width: 1440px;
+  width: 100%;
+  margin: auto;
+}
+
 ul,
 li {
   list-style-type: none;
