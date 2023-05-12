@@ -6,6 +6,7 @@ header {
   }
   .modern {
     max-width: 513px;
+
     .myp {
       font-family: "Epilogue";
       font-style: normal;
@@ -22,6 +23,7 @@ header {
       font-weight: 400;
       font-size: 16px;
       line-height: 32px;
+      padding: 24px 0;
     }
     .Star {
       position: absolute;
@@ -29,6 +31,7 @@ header {
       right: 20px;
     }
     h1 {
+      padding-top: 24px;
       position: relative;
       font-family: "Epilogue";
       font-style: normal;
@@ -81,7 +84,6 @@ header {
   .imgDiv {
     img {
       width: 570px;
-      height: 602px;
     }
   }
 }

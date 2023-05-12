@@ -131,6 +131,7 @@ header .modern .agency {
   font-weight: 400;
   font-size: 16px;
   line-height: 32px;
+  padding: 24px 0;
 }
 header .modern .Star {
   position: absolute;
@@ -138,6 +139,7 @@ header .modern .Star {
   right: 20px;
 }
 header .modern h1 {
+  padding-top: 24px;
   position: relative;
   font-family: "Epilogue";
   font-style: normal;
@@ -187,7 +189,6 @@ header .modern .Man p {
 }
 header .imgDiv img {
   width: 570px;
-  height: 602px;
 }
 
 @media screen and (max-width: 768px) {
@@ -236,7 +237,8 @@ section {
   .navSection ul {
     display: flex;
     flex-wrap: wrap;
-    column-gap: 240px;
+    -moz-column-gap: 240px;
+         column-gap: 240px;
     row-gap: 20px;
     justify-content: center;
   }
@@ -868,9 +870,8 @@ section {
     height: 100%;
   }
   .artPortfolio .suprisCart .img .path {
-    width: 100%;
-    height: 250px;
-    margin-top: -31px;
+    width: 90%;
+    margin-top: -38px;
   }
 }
 .artPortfolio .exPlore {
@@ -1239,4 +1240,718 @@ section {
   text-transform: uppercase;
   color: #391400;
   padding: 18px 54px 16px 41px;
+}
+.artTestimanuals .myPricing {
+  max-width: 1170px;
+  width: 100%;
+}
+.artTestimanuals .myPricing .mypresTag {
+  padding: 108px 0 64px 0;
+  max-width: 358px;
+}
+.artTestimanuals .myPricing .mypresTag p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #ef6d58;
+}
+.artTestimanuals .myPricing .mypresTag h3 {
+  font-weight: 800;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: -1px;
+  color: #391400;
+}
+.artTestimanuals .myPricing .consTract {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+.artTestimanuals .myPricing .consTract .cardas {
+  max-width: 391px;
+  width: 100%;
+  height: 513px;
+  border: 1px solid #f7b693;
+  border-radius: 6px 0px 0px 6px;
+  padding: 44px 48px 48px;
+}
+.artTestimanuals .myPricing .consTract .cardas .myPconst {
+  padding-top: 22px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #ef6d58;
+}
+.artTestimanuals .myPricing .consTract .cardas h3 {
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 48px;
+  color: #391400;
+  padding-top: 17px;
+}
+.artTestimanuals .myPricing .consTract .cardas .yours {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: rgba(57, 20, 0, 0.64);
+  padding: 15px 0;
+}
+.artTestimanuals .myPricing .consTract .cardas .plas {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: #391400;
+  padding-top: 16px;
+}
+.artTestimanuals .myPricing .consTract .cardas .plas img {
+  padding-right: 23px;
+}
+.artTestimanuals .myPricing .consTract .cardas .plas .imgPls {
+  display: inline;
+}
+.artTestimanuals .myPricing .consTract .cardas .plas .imgMns {
+  display: none;
+}
+.artTestimanuals .myPricing .consTract .cardas .divBtn {
+  padding-top: 36px;
+}
+.artTestimanuals .myPricing .consTract .cardas .divBtn .btnContact {
+  background: #ffffff;
+  box-shadow: 0px 3px 9px rgba(57, 20, 0, 0.08);
+  border-radius: 6px;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 18px 32px 16px 31px;
+  color: #391400;
+  border: 0;
+}
+.artTestimanuals .myPricing .consTract .cards-selec {
+  height: 560px;
+  background-color: white;
+  border: 0;
+}
+.artTestimanuals .myPricing .consTract .cards-selec .populary {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: #ffffff;
+  border: 0;
+  background: #ef6d58;
+  border-radius: 19px;
+  padding: 4px 15px 2px 17px;
+}
+@media screen and (max-width: 768px) {
+  .artTestimanuals .myPricing .consTract {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.artTestimanuals .Fag {
+  max-width: 1170px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 176px;
+}
+.artTestimanuals .Fag .Freque {
+  max-width: 470px;
+}
+.artTestimanuals .Fag .Freque .pfag {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #ef6d58;
+}
+.artTestimanuals .Fag .Freque h3 {
+  padding: 17px 0 31px 0;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 48px;
+  color: #391400;
+}
+.artTestimanuals .Fag .Freque .digital {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  padding-bottom: 29px;
+  color: rgba(57, 20, 0, 0.64);
+}
+.artTestimanuals .Fag .Freque .pConta {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: #391400;
+}
+.artTestimanuals .Fag .canProvid .aDigital {
+  max-width: 570px;
+  padding: 41px;
+  border: 1px solid #f7c3a8;
+}
+.artTestimanuals .Fag .canProvid .aDigital .pAgency {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+}
+.artTestimanuals .Fag .canProvid .aDigital .pAgency button {
+  border: 0;
+  background: none;
+}
+.artTestimanuals .Fag .canProvid .aDigital .pComent {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: rgba(57, 20, 0, 0.64);
+  max-width: 470px;
+}
+.artTestimanuals .Fag .canProvid .aDigital-color {
+  background-color: white;
+}
+.artTestimanuals .Fag .canProvid .aDigital-color .pAgency {
+  padding-bottom: 35px;
+}
+.artTestimanuals .Fag .canProvid .aDigital-color .pAgency button {
+  transform: rotate(180deg);
+}
+@media screen and (max-width: 768px) {
+  .artTestimanuals .Fag {
+    flex-direction: column;
+  }
+  .artTestimanuals .Fag .Freque {
+    padding: 23px;
+  }
+}
+.artTestimanuals .our-Awards {
+  max-width: 1170px;
+  width: 100%;
+}
+.artTestimanuals .our-Awards h3 {
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  color: #391400;
+  padding: 156px 0 67px 0;
+}
+.artTestimanuals .our-Awards .Awwards td {
+  border-top: 1px solid #ebbba1;
+}
+.artTestimanuals .our-Awards .Awwards .sonuncu {
+  border-bottom: 1px solid #ebbba1;
+}
+.artTestimanuals .our-Awards .Awwards .pAwards p {
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #391400;
+  gap: 23px;
+}
+.artTestimanuals .our-Awards .Awwards .pAwards p img {
+  width: 120px;
+  height: 80px;
+}
+.artTestimanuals .our-Awards .Awwards .pOurlook {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  text-align: center;
+  color: rgba(57, 20, 0, 0.64);
+}
+.artTestimanuals .our-Awards .Awwards .dessign p {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 23px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  text-align: right;
+  color: #391400;
+}
+@media screen and (max-width: 768px) {
+  .artTestimanuals .our-Awards .Awwards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .artTestimanuals .our-Awards .Awwards td {
+    border: 0;
+  }
+  .artTestimanuals .our-Awards .Awwards td p {
+    flex-direction: column;
+  }
+  .artTestimanuals .our-Awards .Awwards td p img {
+    padding-top: 31px;
+  }
+  .artTestimanuals .our-Awards .Awwards .sonuncu {
+    border: 0;
+  }
+  .artTestimanuals .our-Awards .Awwards .dessign p {
+    border-bottom: 1px solid #ebbba1;
+    padding-bottom: 31px;
+    width: 329px;
+  }
+}
+.artTestimanuals .our-Awards .Whatour {
+  text-align: center;
+  padding: 43px 58px;
+}
+.artTestimanuals .our-Awards .Whatour a {
+  color: black;
+}
+.artTestimanuals .ourBlog {
+  max-width: 1170px;
+  width: 100%;
+  padding-top: 112px;
+}
+.artTestimanuals .ourBlog .myBlog-name {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 64px;
+}
+.artTestimanuals .ourBlog .myBlog-name .myPtag {
+  max-width: 318px;
+}
+.artTestimanuals .ourBlog .myBlog-name .myPtag p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #ef6d58;
+}
+.artTestimanuals .ourBlog .myBlog-name .myPtag h3 {
+  font-weight: 800;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: -1px;
+  color: #391400;
+}
+.artTestimanuals .ourBlog .myBlog-name .btn-our button {
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  background: #ffffff;
+  box-shadow: 0px 3px 9px rgba(57, 20, 0, 0.08);
+  border-radius: 6px;
+  color: #391400;
+  padding: 18px 35px 16px 35px;
+  border: 0;
+}
+.artTestimanuals .ourBlog .imgStories {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  border-bottom: 1px solid #f89d8f;
+  padding-bottom: 68px;
+}
+.artTestimanuals .ourBlog .imgStories .imgCards {
+  max-width: 370px;
+}
+.artTestimanuals .ourBlog .imgStories .imgCards .stories {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #391400;
+  padding-top: 26px;
+}
+.artTestimanuals .ourBlog .imgStories .imgCards h3 {
+  max-width: 338px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 32px;
+  color: #391400;
+  padding: 15px 0;
+}
+.artTestimanuals .ourBlog .imgStories .imgCards .history {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: rgba(57, 20, 0, 0.64);
+}
+@media screen and (max-width: 768px) {
+  .artTestimanuals .ourBlog {
+    padding: 23px;
+    overflow: hidden;
+  }
+  .artTestimanuals .ourBlog .myBlog-name {
+    flex-direction: column;
+    gap: 53px;
+  }
+}
+.artTestimanuals .NewsLetter {
+  max-width: 1440px;
+  width: 100%;
+}
+.artTestimanuals .NewsLetter .newInput {
+  padding: 60px 0 116px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.artTestimanuals .NewsLetter .newInput h3 {
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 48px;
+  color: #391400;
+}
+.artTestimanuals .NewsLetter .newInput form input {
+  background: #ffffff;
+  border: 1px solid #f3d1bf;
+  border-radius: 6px;
+  width: 370px;
+  padding: 9px 16px 7px 16px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: rgba(57, 20, 0, 0.64);
+}
+.artTestimanuals .NewsLetter .newInput form button {
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 18px 45px 16px 45px;
+  color: #391400;
+  background: #ffffff;
+  box-shadow: 0px 3px 9px rgba(57, 20, 0, 0.08);
+  border-radius: 6px;
+  border: 0;
+}
+.artTestimanuals .NewsLetter .newMaps {
+  position: relative;
+  max-width: 1440px;
+  overflow: hidden;
+  height: 719px;
+}
+.artTestimanuals .NewsLetter .newMaps img {
+  width: 1440px;
+  height: 100%;
+}
+.artTestimanuals .NewsLetter .newMaps .mapTag {
+  position: absolute;
+  top: 323px;
+  left: 934px;
+  z-index: 2;
+  width: 72px;
+  height: 72px;
+}
+.artTestimanuals .NewsLetter .newMaps .geTouch {
+  max-width: 470px;
+  padding: 57px 48px 48px;
+  background: #ffffff;
+  border-radius: 6px;
+  position: absolute;
+  top: 127px;
+  left: 135px;
+}
+.artTestimanuals .NewsLetter .newMaps .geTouch h3 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #391400;
+  padding-bottom: 23px;
+}
+.artTestimanuals .NewsLetter .newMaps .geTouch form {
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  justify-content: space-between;
+}
+.artTestimanuals .NewsLetter .newMaps .geTouch form input,
+.artTestimanuals .NewsLetter .newMaps .geTouch form select,
+.artTestimanuals .NewsLetter .newMaps .geTouch form textarea {
+  padding: 9px 16px 7px 16px;
+  background: #ffffff;
+  border: 1px solid #f3d1bf;
+  border-radius: 6px;
+}
+.artTestimanuals .NewsLetter .newMaps .geTouch form textarea {
+  resize: none;
+  margin-bottom: 32px;
+}
+.artTestimanuals .NewsLetter .newMaps .geTouch form button {
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: #ef6d58;
+  border-radius: 6px;
+  padding: 18px 30px 16px 29px;
+  align-self: self-end;
+  border: 0;
+}
+@media screen and (max-width: 768px) {
+  .artTestimanuals .NewsLetter {
+    padding: 23px;
+  }
+  .artTestimanuals .NewsLetter .newInput {
+    gap: 35px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .artTestimanuals .NewsLetter .newInput form input {
+    max-width: 329px;
+    width: 100%;
+    margin-bottom: 16px;
+  }
+  .artTestimanuals .NewsLetter .newInput form button {
+    max-width: 329px;
+    width: 100%;
+  }
+  .artTestimanuals .NewsLetter .newMaps {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    height: 1248px;
+  }
+  .artTestimanuals .NewsLetter .newMaps .geTouch {
+    margin-bottom: 64px;
+    position: static;
+  }
+}
+.artTestimanuals .phoneNumbers {
+  max-width: 1440px;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  padding: 80px 0 130px 0;
+}
+.artTestimanuals .phoneNumbers .cardsNam {
+  max-width: 391px;
+  width: 100%;
+  padding: 32px 48px 38px 48px;
+  height: 192px;
+  border: 1px solid #f5c8b0;
+  border-radius: 6px 0px 0px 6px;
+}
+.artTestimanuals .phoneNumbers .cardsNam .ovalImg {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.artTestimanuals .phoneNumbers .cardsNam .ovalImg .pImg {
+  background-color: orange;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+}
+.artTestimanuals .phoneNumbers .cardsNam .ovalImg .orengPtag {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #ef6d58;
+}
+.artTestimanuals .phoneNumbers .cardsNam .myPabout {
+  padding-top: 26px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #391400;
+}
+@media screen and (max-width: 768px) {
+  .artTestimanuals .phoneNumbers {
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 23px 130px 23px;
+  }
+}
+.artTestimanuals .myCardsimg {
+  max-width: 1170px;
+  width: 100%;
+  padding: 94px 100px;
+  justify-content: center;
+  display: flex;
+  background-color: orange;
+  gap: 87px;
+}
+.artTestimanuals .modern {
+  max-width: 513px;
+}
+.artTestimanuals .modern .myp {
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: #ef6d58;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+.artTestimanuals .modern .agency {
+  color: rgba(255, 255, 255, 0.64);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  padding: 28px 0 34px 0;
+}
+.artTestimanuals .modern .Star {
+  position: absolute;
+  top: -20px;
+  right: 20px;
+}
+.artTestimanuals .modern h3 {
+  position: relative;
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 56px;
+  max-width: 405px;
+  color: white;
+}
+.artTestimanuals .modern .how {
+  background: #ffffff;
+  border-radius: 6px;
+  padding: 18px 23px 16px 22px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  border: 0;
+  color: #252121;
+  cursor: pointer;
+}
+.artTestimanuals .modern .contact {
+  background: #2f234b;
+  border-radius: 6px;
+  padding: 18px 23px 16px 22px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  border: 0;
+  color: #ffffff;
+  cursor: pointer;
+}
+.artTestimanuals .modern .Man {
+  margin-top: 117px;
+  display: flex;
+  align-items: center;
+}
+.artTestimanuals .modern .Man p {
+  color: rgba(255, 255, 255, 0.64);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+}
+.artTestimanuals .imgDiv img {
+  max-width: 444px;
+}
+
+@media screen and (max-width: 768px) {
+  .myCardsimg {
+    flex-direction: column-reverse;
+  }
+  .myCardsimg .imgDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .myCardsimg .imgDiv img {
+    max-width: 329px;
+    width: 100%;
+    max-height: 334px;
+    height: 100%;
+  }
+}
+footer {
+  background-color: #f3d1bf;
+  max-width: 1440px;
+  width: 100%;
+  padding: 9%;
+  display: flex;
+  flex-direction: column;
+}
+footer .iinerFooter {
+  max-width: 1170px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(240, 151, 137, 0.7607843137);
+  padding-bottom: 68px;
+}
+footer .iinerFooter .myAgency h2 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #391400;
+}
+footer .iinerFooter .myMenu p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #ef6d58;
+}
+footer .iinerFooter .myMenu ul li a {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: #391400;
+}
+footer .footerPtag {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 43px;
+}
+footer .footerPtag p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: rgba(57, 20, 0, 0.64);
+}
+footer .footerPtag div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 68px;
+}
+footer .footerPtag div p {
+  color: #391400;
+}
+
+@media screen and (max-width: 768px) {
+  footer .iinerFooter {
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+  }
+  footer .footerPtag {
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+  }
+  footer .footerPtag p {
+    text-align: center;
+  }
 }/*# sourceMappingURL=main.css.map */
